@@ -1,0 +1,135 @@
+
+body {
+  background-color: 	 #262626;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+}
+
+h3 {
+  color: white;
+  margin-left: 35%;
+  font-size: 25px;
+}
+
+h4 {
+  color: white;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+}
+
+a :hover {
+  color: #262626;
+
+}
+
+
+#titlez {
+  margin-top: -15%;
+  margin-left: 45%;
+  color: white;
+}
+
+
+
+
+#bannerz {
+  z-index: -1;
+  overflow: visible;
+
+}
+
+#Bdiv {
+  height: 250px;
+  border: 2px solid 	 #262626;
+  overflow: hidden;
+}
+
+#row1 {
+  height: 250px;
+}
+
+#row2 {
+  height: 60px;
+  background-color: #404040;
+
+}
+
+#nav {
+  float: left;
+}
+
+#bodySection {
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+#Section {
+
+}
+
+#section1 {
+  width: 350px;
+  float: left;
+  margin-left: 100px;
+
+}
+
+#section2 {
+  width: 350px;
+  float: left;
+  margin-left: 100px;
+}
+
+.sect {
+    margin-left: 15%;
+}
+
+.space {
+  height: 120px;
+}
+
+.btn {
+  margin-left: 25%;
+  margin-top: 2%;
+  width: 150px;
+  border: 2px solid white;
+
+}
+
+.btn:hover {
+  background-color: white;
+  text-shadow: white;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+    #titlez {
+       margin-left: 40%;
+      /*  margin-top: -30%;
+*/
+    }
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    #titlez {
+       margin-left: 20%;
+        margin-top: -27%;
+
+    }
+
+    #row2 {
+      height: 150px;
+    }
+
+
+}
